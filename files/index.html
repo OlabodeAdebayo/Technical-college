@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian Technical College | Build skills. Build a career.</title>
+<meta name="description" content="Hands-on technical training in electrical, mechanical, automotive, welding, plumbing and construction.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Call +234 800 000 0000 &nbsp;|&nbsp; admissions@meridiantech.edu.ng</span>
+    <span><a href="#">Student portal</a> <a href="#admissions">Apply</a></span>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top"><span class="mark" aria-hidden="true">M</span>Meridian Technical College</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#campus">Campus</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-amber" href="#admissions">Apply now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Turn practical skills into a career.</h1>
+      <p class="lead">Hands-on technical training, taught by working professionals in fully equipped workshops, so you graduate ready for the job.</p>
+      <div class="actions">
+        <a class="btn btn-amber" href="#programs">Explore programs</a>
+        <a class="btn btn-ghost" href="#admissions">Apply for admission</a>
+      </div>
+    </div>
+    <div class="hero-art" role="img" aria-label="Illustration of workshop tools: gear, wrench and circuit">
+      <svg viewBox="0 0 400 360" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="150" cy="150" r="52"/><circle cx="150" cy="150" r="18"/>
+        <path d="M150 74v-22M150 248v-22M74 150H52M248 150h-22M96 96L80 80M220 220l-16-16M204 96l16-16M80 220l16-16"/>
+        <path d="M250 290l86-86a42 42 0 0 0-58-58l-12 12 28 28-24 24-28-28-12 12a42 42 0 0 0 58 58z" stroke="#fff"/>
+        <path d="M40 320h110l24-40h60" stroke="#fff" stroke-width="4"/><circle cx="260" cy="280" r="7" fill="#F59E0B"/>
+      </svg>
+      <p class="art-note">Replace with a photo of students in your workshop</p>
+    </div>
+  </div>
+</section>
+
+<section class="facts" aria-label="College at a glance">
+  <div class="wrap facts-grid">
+    <div><strong data-count="10">10+</strong>Technical programs</div>
+    <div><strong data-count="20">20+</strong>Qualified instructors</div>
+    <div><strong data-count="500">500+</strong>Students trained</div>
+    <div><strong data-count="12">12+</strong>Practical workshops</div>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <div class="wrap">
+    <h2>Why students choose Meridian</h2>
+    <div class="grid4">
+      <article class="card"><h3>Practical training</h3><p>Most of your week is spent in the workshop, not the lecture hall.</p></article>
+      <article class="card"><h3>Qualified instructors</h3><p>Learn from tradespeople and engineers with years of site experience.</p></article>
+      <article class="card"><h3>Modern workshops</h3><p>Train on the tools and equipment employers actually use.</p></article>
+      <article class="card"><h3>Career support</h3><p>CV help, industrial attachments and introductions to employers.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="programs">
+  <div class="wrap">
+    <h2>Explore our technical programs</h2>
+    <div class="tools">
+      <label class="sr" for="search">Search programs</label>
+      <input id="search" type="search" placeholder="Search programs, e.g. welding">
+      <div class="chips" id="chips" role="group" aria-label="Filter by field">
+        <button class="chip on" data-f="all">All</button>
+        <button class="chip" data-f="engineering">Engineering</button>
+        <button class="chip" data-f="electrical">Electrical</button>
+        <button class="chip" data-f="automotive">Automotive</button>
+        <button class="chip" data-f="construction">Construction</button>
+      </div>
+    </div>
+    <div class="grid3" id="programGrid"></div>
+    <p class="empty" id="empty" hidden>No program matches your search. Clear the search or choose "All".</p>
+  </div>
+</section>
+
+<section class="sec" id="campus">
+  <div class="wrap">
+    <h2>Our training environment</h2>
+    <p class="sub">Every program has its own workshop. Select one to see what you will train on.</p>
+    <div class="campus">
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="wrap principal">
+    <div class="portrait" aria-hidden="true">Principal<br>portrait</div>
+    <div>
+      <h2>A message from the Principal</h2>
+      <blockquote>Our graduates are not only trained, they are trusted. We teach students to work safely, think carefully and finish what they start.</blockquote>
+      <p><strong>Engr. Full Name</strong>, Principal</p>
+      <a class="link" href="#">Read the full message</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="admissions">
+  <div class="wrap">
+    <h2>Start your journey</h2>
+    <ol class="steps">
+      <li><b>Choose a program</b><span>Compare courses and pick the one that fits your goals.</span></li>
+      <li><b>Check requirements</b><span>Confirm the entry requirements for your program.</span></li>
+      <li><b>Complete the form</b><span>Fill in the online application in about 10 minutes.</span></li>
+      <li><b>Submit documents</b><span>Upload results and identification.</span></li>
+      <li><b>Get your update</b><span>We email and text you the admission decision.</span></li>
+    </ol>
+    <div class="faq" id="faq">
+      <details open><summary>General requirements</summary><p>Applicants need a minimum of five credits including English and Mathematics, or a recognised equivalent.</p></details>
+      <details><summary>Required documents</summary><p>Passport photograph, O'level results, birth certificate or age declaration, and a valid ID.</p></details>
+      <details><summary>Tuition and fees</summary><p>Fees vary by program and are listed on each program page. Instalment plans are available.</p></details>
+      <details><summary>Application deadlines</summary><p>Applications for the next intake close on the date shown on the Admissions page.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Ready to start your technical career?</h2>
+    <div class="actions">
+      <a class="btn btn-amber" href="#">Start application</a>
+      <a class="btn btn-ghost" href="#">Download brochure</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="news">
+  <div class="wrap">
+    <h2>News and announcements</h2>
+    <div class="grid3">
+      <article class="card"><time>12 Oct 2026</time><h3>New intake opens for January</h3><p>Applications are now open for all full-time programs.</p></article>
+      <article class="card"><time>28 Sep 2026</time><h3>Welding students win regional contest</h3><p>Our team placed first in the state skills competition.</p></article>
+      <article class="card"><time>15 Sep 2026</time><h3>Examination timetable released</h3><p>Check your portal for practical assessment dates.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="contact">
+  <div class="wrap contact">
+    <div>
+      <h2>Contact and location</h2>
+      <p><b>Address</b><br>1 College Road, Your City, Nigeria</p>
+      <p><b>Phone</b><br>+234 800 000 0000</p>
+      <p><b>Email</b><br>admissions@meridiantech.edu.ng</p>
+      <p><b>Opening hours</b><br>Monday to Friday, 8:00 am to 4:00 pm</p>
+    </div>
+    <form id="contactForm" novalidate>
+      <label for="n">Full name</label><input id="n" required autocomplete="name">
+      <label for="e">Email</label><input id="e" type="email" required autocomplete="email">
+      <label for="m">Message</label><textarea id="m" rows="4" required></textarea>
+      <p class="msg" id="formMsg" role="status"></p>
+      <button class="btn btn-navy" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div><b>Meridian Technical College</b><p>Practical technical education for the next generation of Nigerian professionals.</p></div>
+    <div><b>Quick links</b><a href="#about">About</a><a href="#programs">Programs</a><a href="#admissions">Admissions</a><a href="#news">News</a></div>
+    <div><b>Programs</b><a href="#programs">Electrical</a><a href="#programs">Mechanical</a><a href="#programs">Automotive</a><a href="#programs">Welding</a></div>
+    <div><b>Follow us</b><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">YouTube</a></div>
+  </div>
+  <div class="wrap copy">&copy; 2026 Meridian Technical College. <a href="#">Privacy</a> <a href="#">Terms</a></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
